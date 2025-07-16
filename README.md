@@ -29,7 +29,7 @@ Donde:
 
 
 
-## 🧮 Cómo usar la app
+##  Cómo usar la app
 
 ```bash
 Clona el repositorio:
