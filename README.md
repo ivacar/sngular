@@ -1,12 +1,52 @@
-# React + Vite
+# Serie Numérica con REACT + VITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con **React** y **Vite** que permite calcular una **serie matemática personalizada** en función del número natural `n` introducido por el usuario.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Fórmula de la Serie
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El término general de la serie está definido como:
+## serie(n)= (2 * primo(n−2) * 3 * triangular(n−2)) / (7 * fibonacci(n−1))
+
+
+Donde:
+
+- `primo(n)` = n-ésimo número primo
+- `triangular(n)` = n-ésimo número triangular
+- `fibonacci(n)` = n-ésimo número de Fibonacci
+
+
+
+##  Tecnologías utilizadas
+
+- ⚛️ React + Vite
+- 🎨 SCSS (estilos personalizados)
+- 💬 SweetAlert2 + sweetalert2-react-content (alertas visuales)
+- ✅ Vitest (pruebas unitarias)
+- 🧠 Lógica contenida en `SerieService.js`
+
+
+
+
+## 🧮 Cómo usar la app
+
+```bash
+Clona el repositorio:
+git clone https://github.com/tu-usuario/serie-numerica-react.git
+cd serie-numerica-react
+
+---
+
+##  Instala dependencias
+npm install
+
+---
+
+##   Inicia el servidor local
+npm run dev
+
+---
+
+##  Corre las pruebas unitarias (Vitest)
+npm run test
