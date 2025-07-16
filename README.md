@@ -1,3 +1,5 @@
+![Banner Sngular](http://cloudzon.com/images/react-banner.png)
+
 # Serie Numérica con REACT + VITE
 
 Este proyecto es una aplicación web desarrollada con **React** y **Vite** que permite calcular una **serie matemática personalizada** en función del número natural `n` introducido por el usuario.
